@@ -1,5 +1,4 @@
-# NTAG424-TEST-TOOL
-
+NTAG424 DNA Personalization & Encoding Software – NFCTEC
 NTAG424 TEST TOOL — managing NTAG424 DNA tags does not have to be complicated. **NFCTEC NTAG424 TOOL** provides a clean, intuitive interface for common tag operations on Windows and Android.
 
 Simply tap your phone to an NTAG424 DNA tag, or connect a desktop reader, and the app identifies the card type and displays its UID. From there you can authenticate with EV2 keys, read and write file data, and adjust file access permissions with dropdown menus. A built-in APDU log shows every command and response in real time.
