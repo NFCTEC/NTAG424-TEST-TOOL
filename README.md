@@ -1,41 +1,55 @@
-NTAG424 DNA Personalization & Encoding Software – NFCTEC
-NTAG424 TEST TOOL — managing NTAG424 DNA tags does not have to be complicated. **NFCTEC NTAG424 TOOL** provides a clean, intuitive interface for common tag operations on Windows and Android.
+**[www.nfctec.com](https://www.nfctec.com)** — NFCTEC NFC & smart card software, hardware and cloud.
 
-Simply tap your phone to an NTAG424 DNA tag, or connect a desktop reader, and the app identifies the card type and displays its UID. From there you can authenticate with EV2 keys, read and write file data, and adjust file access permissions with dropdown menus. A built-in APDU log shows every command and response in real time.
+# NTAG424 DNA Personalization & Encoding Software | NFCTEC NTAG424 Tool
 
-For NDEF and SDM (Secure Dynamic Messaging) configuration, the app offers URL template presets, key selection, and encrypted plaintext entry in one panel. A dedicated NDEF verify mode lets you check write results immediately.
+**NTAG424 TEST TOOL** from [www.nfctec.com](https://www.nfctec.com) is Windows and Android software for **NXP NTAG 424 DNA** tag encoding, personalization, EV2 authentication, NDEF writing, and **SDM (Secure Dynamic Messaging)** configuration.
 
-Activation is handled through a license server: enter your email, receive a code, and activate with one click. Trial mode lets you explore reading, get settings, NDEF verification, and EV2 authentication before activation.
+Search terms this tool covers: NTAG424 DNA encoder, NTAG 424 DNA personalization, NFC tag encoding software, SDM URL, SUN message, CMAC verification, EV2 Authenticate, ChangeKey, NDEF URI, file access rights, APDU log, PC/SC reader, NFC brand protection.
 
-Download: `NFCTEC-NTAG424-Tool-Setup-v1.0.0.zip`
+Official site: **[https://www.nfctec.com](https://www.nfctec.com)**
 
-## Screenshots
+## What the NFCTEC NTAG424 DNA Tool does
 
-### EV2 authentication
+Tap a phone on an NTAG424 DNA tag, or connect a desktop NFC / PC/SC reader. The app identifies the card type and UID, then you can:
 
-Authenticate with an application key (KEY 0–4), view session status (App / TI / Key), then change keys after KEY 0 is authenticated. APDU traces appear in the log at the bottom.
+- **EV2 authenticate** with application keys (KEY 0–4) and **ChangeKey** after KEY 0
+- **Read and write** NTAG424 files (File 01 / 02 / 03)
+- Set **file permissions**: Read, Write, R/W, Change, FileRead and communication mode
+- Configure **NDEF + SDM** URL templates such as `https://www.nfctec.com/ntag?id={uid}&ctr={ctr}&cmac={cmac}`
+- **Write NDEF + SDM**, **Read NDEF & Verify**, ASCII and Hex data
+- Watch every command in a live **APDU log**
 
-![EV2 Auth](1.png)
+License activation uses email and a one-click code. Trial mode includes read, get settings, NDEF verify, and EV2 authentication.
 
-### Files, permissions, NDEF and SDM
+## Screenshots — NTAG424 DNA EV2 Auth and SDM encoding
 
-Switch File 01 / 02 / 03, set communication mode and access rights (Read / Write / R/W / Change / FileRead), enable SDM, and write NDEF URL templates such as `https://www.nfctec.com/ntag?id={uid}&ctr={ctr}&cmac={cmac}`. Use **Write NDEF + SDM**, **Read NDEF & Verify**, and ASCII/Hex data blocks for file contents.
+### EV2 authentication and ChangeKey (NTAG424 DNA)
 
-![Files NDEF SDM](2.png)
+Authenticate with an App Key (16-byte hex), see session App / TI / Key, then change KEY 0–4. APDU traces show AuthenticateEV2 and ChangeKey.
 
-## About [nfctec.com](https://nfctec.com)
+![NTAG424 DNA EV2 authentication NFCTEC tool](1.png)
 
-[NFCTEC](https://nfctec.com) is a full-stack NFC and smart card company. We co-develop software, design hardware, and connect cloud backends — from first prototype to certified mass production.
+### NTAG424 files, SDM, NDEF URL encoding
 
-**What we cover**
+Enable SDM, set MetaRead / FileRead keys, pick a URL template (UID + Counter + CMAC), and encode NDEF for [www.nfctec.com](https://www.nfctec.com) cloud verification.
 
-- **Software** — mobile wallet SDKs, issuance and reading software for ePassports, bank cards (EMV), NTAG 424 DNA, DESFire, MIFARE, FeliCa, JavaCard and more
-- **Hardware** — USB / Serial / USB CCID readers, embedded modules, NFC field detector cards, antennas and blank cards
-- **Cloud** — issuance and verification APIs, HSM-backed keys and SaaS consoles
-- **Industry solutions** — payment, transit, identity, access control and IoT
+![NTAG424 DNA SDM NDEF encoding NFCTEC tool](2.png)
 
-**Focus areas include** banking & payment, transit & ticketing, government & ID, access control, healthcare, IoT, brand protection, retail & loyalty, automotive, mobile wallet, and security / crypto wallets.
+## Keywords
 
-This NTAG424 DNA Tool is part of that stack: a practical desktop (and Android) app for authenticating NTAG 424 DNA, managing file permissions, and configuring SDM / NDEF URLs used with NFCTEC cloud verification.
+NTAG424 DNA, NTAG 424 DNA, NXP NTAG424, NFC encoding software, tag personalization, SDM, Secure Dynamic Messaging, SUN, CMAC, NDEF, EV2, AuthenticateEV2First, ChangeKey, PC/SC, Windows NFC tool, Android NFC, brand protection, anti-counterfeit NFC, NFCTEC, www.nfctec.com
 
-Learn more, request samples, or talk to the engineering team: **[https://nfctec.com](https://nfctec.com)**
+中文检索：NTAG424 DNA 发卡 / 编码 / 个性化软件、SDM 动态链接、NDEF 写入、EV2 认证、改密钥、文件权限、NFC 防伪、[www.nfctec.com](https://www.nfctec.com)
+
+## About NFCTEC — www.nfctec.com
+
+[NFCTEC](https://www.nfctec.com) delivers full-stack **NFC and smart card** products: software, USB/CCID readers, modules, and cloud issuance / verification APIs — from prototype to production.
+
+- **Software** — wallet SDKs, ePassport / EMV / NTAG 424 DNA / DESFire / MIFARE / FeliCa / JavaCard
+- **Hardware** — USB, Serial, USB CCID readers, embedded modules, NFC field detector cards, antennas, blank cards
+- **Cloud** — issuance and verification APIs, HSM-backed keys, SaaS consoles
+- **Industries** — payment, transit, government ID, access, healthcare, IoT, brand protection, retail, automotive, mobile wallet, crypto wallet
+
+This **NTAG424 DNA personalization and encoding** app is the desktop/Android tool in that stack.
+
+Contact and product pages: **[https://www.nfctec.com](https://www.nfctec.com)**
